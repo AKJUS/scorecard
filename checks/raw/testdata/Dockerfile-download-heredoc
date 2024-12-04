@@ -14,7 +14,7 @@
 # limitations under the License.
 
 # Add tab
-    FROM python:3.7
+    FROM python:3.14.0a2
 
 RUN <<-EOT
 	pip install --no-deps -e git+https://github.com/username/repo.git@v1.0#egg=package
